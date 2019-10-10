@@ -113,19 +113,19 @@ body {
       text-indent: -9999px;
       height: 8rem;
       width: 8rem;
-      background-position: center;
-      background-size: 80%;
+      background-position: center !important;
+      background-size: 80% !important;
       border: 3px transparent solid;
       border-radius: 50% !important;
-      background-repeat: no-repeat;
+      background-repeat: no-repeat !important;
       transition: .25s ease-in-out;
 
       &:hover {
         border-color: #fff;
-        background-image: transparent url(./assets/arrow.svg) !important;
-        background-position: center;
-        background-size: 80%;
-        background-repeat: no-repeat;
+        background: transparent url(./assets/arrow.svg) !important;
+        background-position: center !important;
+        background-size: 80% !important;
+        background-repeat: no-repeat !important;
       }
 
       &:active,
@@ -138,12 +138,24 @@ body {
 
 .logo {
   display: block;
-  width: 500px;
+  width: 100%;
+  max-width: 500px;
   margin: 0 auto;
 
   svg {
     width: 100%;
     height: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .owl-nav {
+    bottom: 6rem !important;
+  }
+
+  .owl-next {
+    width: 4rem !important;
+    height: 4rem !important;
   }
 }
 </style>
