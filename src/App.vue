@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <carousel :items="1" :autoplay="true" :nav="false" class="carousel">
+    <carousel :items="1" :autoplay="true" class="carousel">
       <slide>
         <p>¿Ahora, gobierno?</p>
         <p class="delayed">¿Y en los últimos 4 meses? ¿Por qué no?</p>
@@ -11,9 +11,9 @@
       <slide>
         <p>¿Sabéis quien está pagando vuestra irresponsabilidad?</p>
       </slide>
-      <slide>
+      <slide color="#000">
         <p>¿Los poderosos?</p>
-        <p>No, a esos no les hace falta un gobierno. De hecho, les molesta que alguien les controle.</p>
+        <p class="delayed smaller">No, a esos no les hace falta un gobierno. De hecho, les molesta que alguien les controle.</p>
       </slide>
     </carousel>
   </div>
@@ -57,9 +57,46 @@ body {
   bottom: 0;
   left: 0;
   width: 100%;
+  padding: 2rem;
 }
 
-.delayed {
-  animation: reveal;
+.owl-theme {
+  .owl-nav {
+    position: absolute;
+    right: 3rem;
+    bottom: 3rem;
+
+    .owl-prev {
+    display: none !important;
+    }
+
+    .owl-next {
+      background-image: url(./assets/arrow.svg);
+      background-color: transparent;
+      text-indent: -9999px;
+      height: 8rem;
+      width: 8rem;
+      background-position: center;
+      background-size: 80%;
+      border: 3px transparent solid;
+      border-radius: 50%;
+      background-repeat: no-repeat;
+      transition: .25s ease-in-out;
+
+      &:hover {
+        border-color: #fff;
+        background-image: url(./assets/arrow.svg);
+        background-color: transparent !important;
+        background-position: center;
+        background-size: 80%;
+        background-repeat: no-repeat;
+      }
+
+      &:active,
+      &:focus {
+        background-color: rgba(255, 255, 255, .5) !important;
+      }
+    }
+  }
 }
 </style>
