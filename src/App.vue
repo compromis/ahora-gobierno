@@ -19,12 +19,12 @@
       <slide color="#000" background="https://images.unsplash.com/photo-1461088945293-0c17689e48ac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2702&q=80">
         <h3>LA IRRESPONSABILIDAD DE NO QUERER FORMAR UN GOBIERNO PROGRESISTA LA PAGAN:</h3>
         <p>Las personas</p>
-        <p class="smaller">Porque se bloquean fondos para Educación, sanidad, dependencia o servicios sociales.</p>
+        <p class="smaller">Porque se bloquean fondos para educación, sanidad, dependencia o servicios sociales.</p>
       </slide>
       <slide color="#000" background="https://images.unsplash.com/photo-1512405228606-d71b7aa8d110?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=60">
         <h3>LA IRRESPONSABILIDAD DE NO QUERER FORMAR UN GOBIERNO PROGRESISTA LA PAGAN:</h3>
-        <p>Los precarios</p>
-        <p class="smaller">Porque no se deroga la reforma laboral ni se activa la lucha contra la explotación.</p>
+        <p>La gente trabajadora</p>
+        <p class="smaller">Porque no se deroga la reforma laboral ni se activa la lucha contra la precariedad.</p>
       </slide>
       <slide color="#000" background="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&auto=format&fit=crop&w=2700&q=80">
         <h3>LA IRRESPONSABILIDAD DE NO QUERER FORMAR UN GOBIERNO PROGRESISTA LA PAGAN:</h3>
@@ -39,12 +39,17 @@
       <slide color="#000" background="https://images.unsplash.com/photo-1506377872008-6645d9d29ef7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80">
         <h3>LA IRRESPONSABILIDAD DE NO QUERER FORMAR UN GOBIERNO PROGRESISTA LA PAGAN:</h3>
         <p>Jóvenes</p>
-        <p class="smaller">Porque no se aumentan las becas, ni se limita el precio del alquiler.</p>
+        <p class="smaller">Porque no se se limita el precio del alquiler, ni se aumentan las becas.</p>
       </slide>
       <slide color="#000" background="https://images.unsplash.com/photo-1524067217094-584e94e61106?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=60">
         <h3>LA IRRESPONSABILIDAD DE NO QUERER FORMAR UN GOBIERNO PROGRESISTA LA PAGAN:</h3>
         <p>Mayores</p>
         <p class="smaller">Porque no se garantizan unas pensiones dignas.</p>
+      </slide>
+      <slide color="#000" background="https://images.unsplash.com/photo-1561982479-c36896dad276?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1268&q=80">
+        <h3>LA IRRESPONSABILIDAD DE NO QUERER FORMAR UN GOBIERNO PROGRESISTA LA PAGAN:</h3>
+        <p>Las personas LGTBI</p>
+        <p class="smaller">Porque sigues in aprobarse una Ley Integral LGTBI y una Ley Trans, siguiendo el ejemplo de las leyes valencianas.</p>
       </slide>
       <slide color="#f7921e">
         <p>Para salir del bloqueo.</p>
