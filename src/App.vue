@@ -122,7 +122,7 @@ body {
 
       &:hover {
         border-color: #fff;
-        background-image: transparent url(./assets/arrow.svg) !improtant;
+        background-image: transparent url(./assets/arrow.svg) !important;
         background-position: center;
         background-size: 80%;
         background-repeat: no-repeat;

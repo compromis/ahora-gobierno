@@ -53,7 +53,7 @@
   }
 
   h3 {
-    font-size: 1.5rem;
+    font-size: calc(1rem + .25vw);
     border: 3px #fff solid;
     padding: 1rem 2rem;
     letter-spacing: 1px;
