@@ -109,22 +109,20 @@ body {
     }
 
     .owl-next {
-      background-image: url(./assets/arrow.svg);
-      background-color: transparent;
+      background: transparent url(./assets/arrow.svg) !important;
       text-indent: -9999px;
       height: 8rem;
       width: 8rem;
       background-position: center;
       background-size: 80%;
       border: 3px transparent solid;
-      border-radius: 50%;
+      border-radius: 50% !important;
       background-repeat: no-repeat;
       transition: .25s ease-in-out;
 
       &:hover {
         border-color: #fff;
-        background-image: url(./assets/arrow.svg);
-        background-color: transparent !important;
+        background-image: transparent url(./assets/arrow.svg) !improtant;
         background-position: center;
         background-size: 80%;
         background-repeat: no-repeat;
