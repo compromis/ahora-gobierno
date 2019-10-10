@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <carousel :items="1" :autoplay="true" class="carousel">
+    <carousel :items="1" :autoplay="false" class="carousel">
       <slide>
         <p>¿Ahora, gobierno?</p>
         <p class="delayed">¿Y en los últimos 4 meses? ¿Por qué no?</p>
@@ -35,7 +35,7 @@
         <p>El medio ambiente</p>
         <p class="smaller">Porque no se aprueba una Ley de lucha contra la Emergencia Climática.</p>
       </slide>
-      <slide color="#000" background="https://images.unsplash.com/photo-1506919258185-6078bba55d2a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1715&q=80">
+      <slide color="#000" background="https://images.unsplash.com/photo-1506377872008-6645d9d29ef7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80">
         <h3>LA IRRESPONSABILIDAD DE NO QUERER FORMAR UN GOBIERNO PROGRESISTA LA PAGAN:</h3>
         <p>Jóvenes</p>
         <p class="smaller">Porque no se aumentan las becas, ni se limita el precio del alquiler.</p>
@@ -45,11 +45,11 @@
         <p>Mayores</p>
         <p class="smaller">Porque no se garantizan unas pensiones dignas.</p>
       </slide>
-      <slide color="orangered">
+      <slide color="#f7921e">
         <p>Para salir del bloqueo.</p>
         <p class="smaller">Para conseguir un gobierno que mejore la vida de las personas y no de los poderosos.</p>
         <p class="smaller">¡ÚNETE!</p>
-        <div>FB...</div>
+        <a href="https://compromis.net" target="_blank" class="logo"><logo /></a>
       </slide>
     </carousel>
   </div>
@@ -58,11 +58,13 @@
 <script>
 import carousel from 'vue-owl-carousel'
 import Slide from './components/Slide'
+import Logo from './components/Logo'
 
 export default {
   name: 'app',
   components: {
     Slide,
+    Logo,
     carousel
   }
 }
@@ -133,6 +135,17 @@ body {
         background-color: rgba(255, 255, 255, .5) !important;
       }
     }
+  }
+}
+
+.logo {
+  display: block;
+  width: 500px;
+  margin: 0 auto;
+
+  svg {
+    width: 100%;
+    height: 100%;
   }
 }
 </style>

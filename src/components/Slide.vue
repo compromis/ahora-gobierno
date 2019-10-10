@@ -69,7 +69,7 @@
     opacity: 0;
     animation-name: reveal;
     animation-duration: 1s;
-    animation-delay: .5s;
+    animation-delay: 1s;
     animation-fill-mode: forwards;
   }
 }
