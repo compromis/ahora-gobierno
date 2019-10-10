@@ -4,6 +4,7 @@
       <slide>
         <p>¿Ahora, gobierno?</p>
         <p class="delayed">¿Y en los últimos 4 meses? ¿Por qué no?</p>
+        <slide-hint class="slide-hint" />
       </slide>
       <slide>
         <p>¿Quizás porque os han importado más las siglas que las personas?</p>
@@ -58,6 +59,7 @@
 <script>
 import carousel from 'vue-owl-carousel'
 import Slide from './components/Slide'
+import SlideHint from './components/SlideHint'
 import Logo from './components/Logo'
 
 export default {
@@ -65,7 +67,8 @@ export default {
   components: {
     Slide,
     Logo,
-    carousel
+    carousel,
+    SlideHint
   }
 }
 </script>
@@ -148,14 +151,36 @@ body {
   }
 }
 
+.slide-hint {
+  display: none;
+}
+
 @media screen and (max-width: 600px) {
   .owl-nav {
     bottom: 6rem !important;
   }
 
   .owl-next {
-    width: 4rem !important;
-    height: 4rem !important;
+    display: none !important;
+  }
+
+  .owl-dots {
+    padding: 1.25rem;
+  }
+
+  .slide-hint {
+    display: block;
+    position: fixed;
+    bottom: 6rem;
+    width: 100%;
+    left: 0;
+    right: 0;
+    text-align: center;
+
+    svg {
+    width: 3.5rem;
+    height: 3.5rem;
+    }
   }
 }
 </style>

@@ -78,4 +78,19 @@ export default {
   from { opacity: 0; }
   to { opacity: 1; }
 }
+
+@media screen and (max-width: 600px) {
+  .slide {
+  font-size: calc(1.5rem + 1.5vw);
+  padding: 2rem;
+
+    h3 {
+      font-size: calc(0.75rem + .25vw);
+    }
+
+    .smaller {
+      font-size: calc(1.25rem + 0.75vw);
+    }
+  }
+}
 </style>
