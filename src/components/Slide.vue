@@ -3,6 +3,7 @@
     <div class="slide-content">
       <slot />
     </div>
+    <div v-if="background" class="slide-background" :style="{ backgroundImage:  `url(${background})` }"></div>
   </div>
 </template>
 
@@ -11,13 +12,15 @@
     name: 'slide',
 
     props: {
-      color: String
+      color: String,
+      background: String
     }
   }
 </script>
 
 <style lang="scss" scoped>
 .slide {
+  position: relative;
   height: 100vh;
   background: #f31912;
   color: #fff;
@@ -31,20 +34,44 @@
   line-height: 1.25;
 
   &-content {
+    position: relative;
     max-width: 1200px;
+    z-index: 10;
   }
-}
 
-.smaller {
-  font-size: calc(1.5rem + 1.5vw);
-}
+  &-background {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    filter: grayscale(100%);
+    z-index: 0;
+    opacity: .45;
+    background-size: cover;
+    background-position: center;
+  }
 
-.delayed {
-  opacity: 0;
-  animation-name: reveal;
-  animation-duration: 1s;
-  animation-delay: .5s;
-  animation-fill-mode: forwards;
+  h3 {
+    font-size: 1.5rem;
+    border: 3px #fff solid;
+    padding: 1rem 2rem;
+    letter-spacing: 1px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .smaller {
+    font-size: calc(1.25rem + 1.25vw);
+  }
+
+  .delayed {
+    opacity: 0;
+    animation-name: reveal;
+    animation-duration: 1s;
+    animation-delay: .5s;
+    animation-fill-mode: forwards;
+  }
 }
 
 @keyframes reveal {
