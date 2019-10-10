@@ -8,14 +8,14 @@
 </template>
 
 <script>
-  export default {
-    name: 'slide',
+export default {
+  name: 'slide',
 
-    props: {
-      color: String,
-      background: String
-    }
+  props: {
+    color: String,
+    background: String
   }
+}
 </script>
 
 <style lang="scss" scoped>
