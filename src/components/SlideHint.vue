@@ -14,9 +14,9 @@
 </template>
 
 <script>
-  export default {
-    name: 'slide-hint'
-  }
+export default {
+  name: 'slide-hint'
+}
 </script>
 
 <style lang="scss" scoped>
@@ -43,4 +43,3 @@
 }
 
 </style>
-

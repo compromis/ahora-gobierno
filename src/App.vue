@@ -3,7 +3,7 @@
     <carousel :items="1" :autoplay="false" class="carousel">
       <slide>
         <p>¿Ahora, gobierno?</p>
-        <p class="delayed">¿Y en los últimos 4 meses? ¿Por qué no?</p>
+        <p class="delayed">¿Y en los últimos 4 meses?<br />¿Por qué no?</p>
         <slide-hint class="slide-hint" />
       </slide>
       <slide>
@@ -82,7 +82,10 @@ export default {
 * {
   box-sizing: border-box;
 }
+
+html,
 body {
+  height: 100%;
   margin: 0;
 }
 
@@ -94,8 +97,18 @@ body {
   color: #2c3e50;
 }
 
-.carousel {
-  position: relative;
+.owl-carousel {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.owl-stage-outer,
+.owl-stage,
+.owl-item {
+  height: 100%;
 }
 
 .owl-dots {
