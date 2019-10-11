@@ -87,6 +87,7 @@ html,
 body {
   height: 100%;
   margin: 0;
+  overflow: hidden;
 }
 
 #app {
@@ -103,12 +104,7 @@ body {
   left: 0;
   bottom: 0;
   right: 0;
-}
-
-.owl-stage-outer,
-.owl-stage,
-.owl-item {
-  height: 100%;
+  overflow: hidden;
 }
 
 .owl-dots {

@@ -21,7 +21,7 @@ export default {
 <style lang="scss" scoped>
 .slide {
   position: relative;
-  height: 100%;
+  height: 100vh;
   background: #f31912;
   color: #fff;
   font-weight: bold;
