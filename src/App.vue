@@ -49,7 +49,7 @@
       <slide color="#000" background="https://images.unsplash.com/photo-1561982479-c36896dad276?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1268&q=80">
         <h3>LA IRRESPONSABILIDAD DE NO QUERER FORMAR UN GOBIERNO PROGRESISTA LA PAGAN:</h3>
         <p>Las personas LGTBI</p>
-        <p class="smaller">Porque sigues sin aprobarse una Ley Integral LGTBI y una Ley Trans, siguiendo el ejemplo de las leyes valencianas.</p>
+        <p class="smaller">Porque siguen sin aprobarse una Ley Integral LGTBI y una Ley Trans, siguiendo el ejemplo de las leyes valencianas.</p>
       </slide>
       <slide color="#f7921e">
         <p>Para salir del bloqueo.</p>
