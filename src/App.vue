@@ -54,7 +54,7 @@
       <slide color="#f7921e">
         <p>Para salir del bloqueo.</p>
         <p class="smaller">Para conseguir un gobierno que mejore la vida de las personas y no de los poderosos.</p>
-        <p class="smaller">¡ÚNETE!</p>
+        <p class="smaller">Acordar, la política útil</p>
         <a href="https://compromis.net" target="_blank" class="logo"><logo /></a>
       </slide>
     </carousel>
