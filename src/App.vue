@@ -74,6 +74,10 @@ export default {
     Logo,
     carousel,
     SlideHint
+  },
+  mounted () {
+    let vh = window.innerHeight * 0.01
+    document.documentElement.style.setProperty('--vh', `${vh}px`)
   }
 }
 </script>
@@ -180,6 +184,12 @@ body {
 
   .owl-dots {
     padding: 1.25rem;
+
+    .owl-dot {
+      span {
+        margin: 3px !important;
+      }
+    }
   }
 
   .slide-hint {

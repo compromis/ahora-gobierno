@@ -22,6 +22,7 @@ export default {
 .slide {
   position: relative;
   height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
   background: #f31912;
   color: #fff;
   font-weight: bold;
@@ -82,7 +83,7 @@ export default {
 @media screen and (max-width: 600px) {
   .slide {
   font-size: calc(1.5rem + 1.5vw);
-  padding: 2rem;
+  padding: 1.5rem;
 
     h3 {
       font-size: calc(0.75rem + .25vw);
