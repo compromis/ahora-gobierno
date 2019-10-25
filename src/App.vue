@@ -1,5 +1,9 @@
 <template>
   <div id="app">
+    <div class="language">
+      <a v-if="lang === 'cas'" href="#" @click.prevent="lang = 'val'">En valencià</a>
+      <a v-if="lang === 'val'" href="#" @click.prevent="lang = 'cas'">En calencià</a>
+    </div>
     <carousel v-if="lang === 'val'" :items="1" :autoplay="false" class="carousel">
       <slide>
         <p>¿Ahora, gobierno?</p>
@@ -135,7 +139,7 @@ export default {
   },
   data () {
     return {
-      lang: 'val'
+      lang: 'cas'
     }
   },
   mounted () {
@@ -169,6 +173,23 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+}
+
+.language {
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  z-index: 10;
+  font-size: 1.5rem;
+
+  a {
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
 
 .owl-carousel {
