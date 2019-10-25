@@ -2,7 +2,7 @@
   <div id="app">
     <div class="language">
       <a v-if="lang === 'cas'" href="#" @click.prevent="lang = 'val'">En valencià</a>
-      <a v-if="lang === 'val'" href="#" @click.prevent="lang = 'cas'">En calencià</a>
+      <a v-if="lang === 'val'" href="#" @click.prevent="lang = 'cas'">En castellano</a>
     </div>
     <carousel v-if="lang === 'val'" :items="1" :autoplay="false" class="carousel">
       <slide>
