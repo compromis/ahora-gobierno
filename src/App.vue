@@ -18,40 +18,40 @@
       </slide>
       <slide color="#000">
         <p>Els poderosos?</p>
-        <p class="delayed smaller">No, a eixos no els fa falta un govern. De fet, els molesta que algu els controle.</p>
+        <p class="delayed smaller">No, a eixos no els fa falta un govern. De fet, els molesta que algú els controle.</p>
       </slide>
       <slide color="#000" background="https://images.unsplash.com/photo-1461088945293-0c17689e48ac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2702&q=80">
-        <h3>LA IRRESPONSABILITAT DE NO VOLER FORMAR UN GOVERN PROGRESISTA LA PAGUEN:</h3>
+        <h3>LA IRRESPONSABILITAT DE NO VOLER FORMAR UN GOVERN PROGRESSISTA LA PAGUEN:</h3>
         <p>Les persones</p>
         <p class="smaller">Perquè es bloquen fons per a educació, sanitat, dependència o serveis socials.</p>
       </slide>
       <slide color="#000" background="https://images.unsplash.com/photo-1512405228606-d71b7aa8d110?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=60">
-        <h3>LA IRRESPONSABILITAT DE NO VOLER FORMAR UN GOVERN PROGRESISTA LA PAGUEN:</h3>
+        <h3>LA IRRESPONSABILITAT DE NO VOLER FORMAR UN GOVERN PROGRESSISTA LA PAGUEN:</h3>
         <p>La gent treballadora</p>
-        <p class="smaller">Perquè no es deroga la reforma laboral ni s'activa la luita contra la precarietat.</p>
+        <p class="smaller">Perquè no es deroga la reforma laboral ni s'activa la lluita contra la precarietat.</p>
       </slide>
       <slide color="#000" background="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&auto=format&fit=crop&w=2700&q=80">
-        <h3>LA IRRESPONSABILITAT DE NO VOLER FORMAR UN GOVERN PROGRESISTA LA PAGUEN:</h3>
+        <h3>LA IRRESPONSABILITAT DE NO VOLER FORMAR UN GOVERN PROGRESSISTA LA PAGUEN:</h3>
         <p>Les dones</p>
         <p class="smaller">Perquè no s'aproven més mesures contra la violència masclista.</p>
       </slide>
       <slide color="#000" background="https://images.unsplash.com/photo-1416169607655-0c2b3ce2e1cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=60">
-        <h3>LA IRRESPONSABILITAT DE NO VOLER FORMAR UN GOVERN PROGRESISTA LA PAGA:</h3>
+        <h3>LA IRRESPONSABILITAT DE NO VOLER FORMAR UN GOVERN PROGRESSISTA LA PAGUEN:</h3>
         <p>El medi ambient</p>
         <p class="smaller">Perquè no s'aprova una Llei de lluita contra l'Emergència Climàtica.</p>
       </slide>
       <slide color="#000" background="https://images.unsplash.com/photo-1506377872008-6645d9d29ef7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80">
-        <h3>LA IRRESPONSABILITAT DE NO VOLER FORMAR UN GOVERN PROGRESISTA LA PAGUEN:</h3>
+        <h3>LA IRRESPONSABILITAT DE NO VOLER FORMAR UN GOVERN PROGRESSISTA LA PAGUEN:</h3>
         <p>La gent jove</p>
         <p class="smaller">Perquè no es limita el preu del lloguer, ni s'augmenten les beques.</p>
       </slide>
       <slide color="#000" background="https://images.unsplash.com/photo-1524067217094-584e94e61106?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=60">
-        <h3>LA IRRESPONSABILITAT DE NO VOLER FORMAR UN GOVERN PROGRESISTA LA PAGUEN:</h3>
+        <h3>LA IRRESPONSABILITAT DE NO VOLER FORMAR UN GOVERN PROGRESSISTA LA PAGUEN:</h3>
         <p>La gent major</p>
         <p class="smaller">Perquè no es garanteixen unes pensions dignes.</p>
       </slide>
       <slide color="#000" background="https://images.unsplash.com/photo-1561982479-c36896dad276?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1268&q=80">
-        <h3>LA IRRESPONSABILITAT DE NO VOLER FORMAR UN GOVERN PROGRESISTA LA PAGUEN:</h3>
+        <h3>LA IRRESPONSABILITAT DE NO VOLER FORMAR UN GOVERN PROGRESSISTA LA PAGUEN:</h3>
         <p>Las persones LGTBI</p>
         <p class="smaller">Perquè segueix sense aprovar-se una Llei Integral LGTBI i una Llei Trans, seguint l'exemple de les lleis valencianes.</p>
       </slide>
