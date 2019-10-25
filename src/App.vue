@@ -68,7 +68,7 @@
         <p>¿Quizás porque os han importado más las siglas que las personas?</p>
       </slide>
       <slide>
-        <p>¿Sabéis quien está pagando vuestra irresponsabilidad?</p>
+        <p>¿Sabéis quién está pagando vuestra irresponsabilidad?</p>
       </slide>
       <slide color="#000">
         <p>¿Los poderosos?</p>
